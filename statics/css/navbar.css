@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 61px;
+}
+
+
+.navbar-image {
+  margin-left: 10px;
+  width: 100px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.navbar-right {
+  justify-content: flex-end;
+}
+
+
+.darkmode {
+  color: white;
+}
+
+.nav-link,
+.nav-link:visited {
+  color: white;
+}
+.element {
+  scroll-snap-align: center;
+}
+
+
+.nav-link :focus,
+.nav-link:hover {
+  color: #0dcaf0;
+}
+
+.form-check-input:checked {
+  background-color: red;
+  border-color: red;
+}
