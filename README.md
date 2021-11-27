@@ -1,1 +1,3 @@
-# web-hw2
+## Activities
+## contact us
+## footer
