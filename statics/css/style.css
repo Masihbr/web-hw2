@@ -5,3 +5,27 @@ body {
 .persian-text {
     direction: rtl; text-align: justify;
 }
+
+.img-general-style {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+}
+
+.img-general-style:hover {
+    box-shadow: 0 0 2px 1px rgba(40, 40, 40, 0.5);
+}
+
+.image1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.image2 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
