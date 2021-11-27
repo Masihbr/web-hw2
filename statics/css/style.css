@@ -1,0 +1,7 @@
+body {
+    font-family: bnazanin, serif !important;
+}
+
+.persian-text {
+    direction: rtl; text-align: justify;
+}
