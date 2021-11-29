@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  background: linear-gradient(to right, #fdfdfd, #000000f7),
+    url("../images/colorful.jpg");
+}
+
+
+.header-text {
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  align-items: center;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+}
