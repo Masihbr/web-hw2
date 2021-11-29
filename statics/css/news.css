@@ -1,0 +1,11 @@
+.news {
+    background-color: mediumslateblue;
+    padding: 40px;
+    margin: 10%;
+    border-radius: 10px;
+}
+
+.news > .news-header {
+    padding: 0 0 20px 0;
+    color: white;
+}
