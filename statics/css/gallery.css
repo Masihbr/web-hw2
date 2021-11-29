@@ -4,6 +4,7 @@
   background-color: gray;
   padding: 10px;
   width: 100%;
+  position: relative;
 }
 
 .grid-item {
@@ -75,4 +76,72 @@
   opacity: 1;
   transition: 0.5s ease;
   color: white;
+}
+
+.dot {
+  display: none;
+  cursor: pointer;
+  height: 4%;
+  width: 3%;
+  margin: 0 1%;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+  position: relative;
+  top: 87%;
+  z-index: 10;
+}
+.dot-active,
+.dot:hover {
+  background-color: #717171;
+}
+.slide-show {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.direction-button {
+  display: none;
+  color: black;
+  position: absolute;
+  z-index: 10;
+  top: 45%;
+}
+.grid-slide-show {
+  display: none;
+}
+
+.left-direction-button {
+  left: 0;
+}
+.right-direction-button {
+  right: 0;
+}
+.direction-button,
+.badge-button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .dot {
+    display: inline-block;
+  }
+  .direction-button {
+    display: inline-block;
+  }
+  .grid-slide-show {
+    display: block;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
