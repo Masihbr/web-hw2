@@ -19,7 +19,7 @@ body {
 }
 
 .image1 {
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 10px;
     z-index: 1;
@@ -30,7 +30,7 @@ body {
 }
 
 .image2 {
-    position: absolute;
+    position: relative;
     top: 40px;
     left: 40px;
     z-index: 2;
