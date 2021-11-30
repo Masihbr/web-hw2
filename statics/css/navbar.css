@@ -2,14 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  position: relative;
-  top: 73.38px;
+.custom-padding-top {
+  padding-top: calc(1.4vw + 35px);
 }
 
 .navbar-custom {
   display: flex;
-  padding: 1%;
+  padding: 0.7%;
   background-color: rgb(7, 5, 5);
   align-items: center;
 }
@@ -23,7 +22,7 @@ body {
 }
 
 .navbar-image {
-  margin: 0 10px;
+  margin: 0 10px 0 0;
   width: 100px;
   height: 35px;
   object-fit: cover;
@@ -35,9 +34,11 @@ body {
   color: white;
 }
 
-.darkmode {
+.darkmode-button {
   color: white;
 }
+
+
 
 .nav-link,
 .nav-link:visited {
@@ -56,6 +57,7 @@ body {
 
 .navbar-toggler {
   padding: 1%;
+  height: 85%;
   display: none;
   position: absolute;
   right: 0.1%;
@@ -64,7 +66,7 @@ body {
 
 .offcanvas-end {
   color: white;
-  background-color: black;
+  background-color: #a79c9c;
   width: 40%;
 }
 

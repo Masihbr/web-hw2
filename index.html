@@ -12,6 +12,8 @@
       crossorigin="anonymous"
     />
 
+    <link rel="icon" type="image/x-icon" href="./statics/logo/">
+
     <link href="./statics/css/header.css" rel="stylesheet" />
     <link href="./statics/css/navbar.css" rel="stylesheet" />
     <link href="./statics/css/gallery.css" rel="stylesheet" />
@@ -24,16 +26,16 @@
       <a href="#header">
         <img
           class="navbar-image"
-          src="./statics/logo/blue_logo_200x200.png"
+          src="./statics/logo/red_logo_200x200.png"
           alt="webDev logo"
         />
       </a>
 
       <div class="form-check form-switch">
-        <label class="form-check-label darkmode" for="darkModeCheckbox"
+        <label class="form-check-label darkmode-button" for="darkModeCheckbox"
           >Dark Mode</label
         >
-        <input class="form-check-input" type="checkbox" id="darkModeCheckbox" />
+        <input class="form-check-input" type="checkbox" id="darkModeCheckbox" onclick="toggleDarkMode()" />
       </div>
 
       <div class="navbar-link-container">
@@ -99,7 +101,7 @@
     </nav>
 
     <!-- header -->
-    <section class="header" id="header">
+    <section class="header custom-padding-top" id="header">
       <svg
         class="curve"
         data-name="Layer 1"
@@ -127,7 +129,7 @@
     </section>
 
     <!-- Gallery -->
-    <div id="gallery" class="gallery">
+    <div id="gallery" class=" custom-padding-top">
       <div class="grid-container">
         <div class="slide-show">
           <button
@@ -192,7 +194,8 @@
         </div>
       </div>
     </div>
-
+    
+    <script src="./statics/js/navbar.js"></script>
     <script src="./statics/js/header.js"></script>
     <script src="./statics/js/gallery.js"></script>
     <script
