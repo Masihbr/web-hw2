@@ -1,4 +1,4 @@
-const change = document.getElementById("header");
+const header = document.getElementById("header");
 
 function getRandomColor() {
   var letters = "0123456789abcdef";
@@ -10,11 +10,13 @@ function getRandomColor() {
 }
 
 function getRandomGradient() {
-  return `linear-gradient(to right, ${getRandomColor()}, ${getRandomColor()}f7)`;
+  return `linear-gradient(to right, ${getRandomColor()}, ${getRandomColor()}a1)`;
 }
 
 function changeColor() {
-  console.log(change);
-  change.style.background =
-    `${getRandomGradient()}, url("statics/images/colorful.jpg")`;
+  header.style.background = `${getRandomGradient()}, url("statics/images/dog.jpg")`;
+
+  header.style["background-size"] = "100% 100%";
+  header.style["background-position-x"] = "right";
+  header.style["background-repeat"] = "no-repeat";
 }
