@@ -1,3 +1,9 @@
+.slideshow-title {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
 .slideshow-container {
   max-width: 75%;
   position: relative;
