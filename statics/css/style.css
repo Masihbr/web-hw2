@@ -85,7 +85,7 @@ body {
 }
 
 .text-bold {
-  font-size: 3vw;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -97,4 +97,14 @@ body {
 
 .gray-background {
   background: rgba(49, 49, 49, 255);
+}
+
+.contact-item:hover {
+  color: #f3c900;
+  transform: scale(1.1);
+}
+
+.be-in-touch-style {
+  font-size: 36px;
+  color: #f3c900;
 }
