@@ -84,3 +84,14 @@ body {
   left: 50%;
   transform: skew(0deg, -6deg);
 }
+
+.text-bold {
+  font-size:3.5vw;
+  font-weight: bold;
+}
+
+.vertical-center {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
