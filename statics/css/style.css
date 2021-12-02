@@ -10,6 +10,7 @@ body {
 .img-general-style {
   width: min(10rem, 200px);
   height: min(10rem, 200px);
+  position: relative;
 }
 
 .image-shadow--bottom-left {
@@ -22,6 +23,7 @@ body {
 
 .img-general-style:hover {
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+  z-index: 2;
 }
 
 .image-stack {
@@ -36,40 +38,20 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-.image-stack__item--bottom {
+.image-stack__item--bottom-right {
   float: right;
   width: 90%;
   padding-top: 15%;
-  position: relative;
 }
 
-.image-stack__item--bottom:hover {
-    z-index: 2;
-}
-
-.image-stack__item--top {
+.image-stack__item--top-left {
   float: left;
   width: 100%;
   margin-right: -100%;
   padding-top: 5%;
-  position: relative;
   z-index: 1;
 }
 
-.image1 {
-  position: relative;
-  top: 10px;
-  left: 10px;
+.above {
   z-index: 1;
-}
-
-.image2 {
-  position: relative;
-  top: 40px;
-  left: 40px;
-  z-index: 2;
-}
-
-.image2:hover {
-  z-index: 10;
 }
