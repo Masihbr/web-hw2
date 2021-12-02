@@ -19,7 +19,7 @@ function showSlides(n) {
     slideIndex = slides.length - 1;
   }
 
-  slides[slideIndex].style.display = "block";
+  slides[slideIndex].style.display = "flex";
   for (var i = 0; i < slides.length; i++) {
     if (i != slideIndex) slides[i].style.display = "none";
   }
