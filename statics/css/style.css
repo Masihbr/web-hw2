@@ -109,3 +109,9 @@
 .footer-background {
   background-color: #303030;
 }
+
+.custom-link {
+  text-decoration: none;
+  color: #c01650;
+  display: block;
+}
