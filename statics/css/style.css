@@ -1,8 +1,5 @@
-body {
-  font-family: bnazanin, serif !important;
-}
-
 .persian-text {
+  font-family: bnazanin, serif !important;
   direction: rtl;
   text-align: justify;
 }
@@ -107,4 +104,8 @@ body {
 .be-in-touch-style {
   font-size: 36px;
   color: #f3c900;
+}
+
+.footer-background {
+  background-color: #303030;
 }
