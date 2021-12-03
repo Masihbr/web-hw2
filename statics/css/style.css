@@ -86,6 +86,11 @@
   font-weight: bold;
 }
 
+.text-bold--small {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .vertical-center {
   display: grid;
   align-items: center;
@@ -106,6 +111,11 @@
   color: #f3c900;
 }
 
+.be-in-touch-style--small {
+  font-size: 26px;
+  color: #f3c900;
+}
+
 .footer-background {
   background-color: #303030;
 }
@@ -117,9 +127,34 @@
 }
 
 .remove-line-height {
-  line-height: 0mm;
+  line-height: 0;
 }
 
 .normal-line-height {
   line-height: 3.3rem;
+}
+
+.remove-padding {
+  padding: 0;
+}
+
+.overlap-bottom {
+  margin-bottom:-1px
+}
+
+.overlap-top {
+  margin-top:-1px
+}
+
+#contactUsPhone {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #contactUsPhone {
+    display: block;
+  }
+  #contactUs {
+    display: none;
+  }
 }
