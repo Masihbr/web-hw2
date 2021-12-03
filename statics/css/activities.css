@@ -52,3 +52,22 @@
     color: #c01650;
     display: block;
   }
+
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  #activitiesPhone {
+      display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    #activitiesPhone {
+      display: block;
+    }
+    #activities {
+      display: none;
+    }
+  }
