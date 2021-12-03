@@ -82,7 +82,7 @@
 }
 
 .text-bold {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bold;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .be-in-touch-style {
-  font-size: 36px;
+  font-size: 40px;
   color: #f3c900;
 }
 
@@ -114,4 +114,12 @@
   text-decoration: none;
   color: #c01650;
   display: block;
+}
+
+.remove-line-height {
+  line-height: 0mm;
+}
+
+.normal-line-height {
+  line-height: 3.3rem;
 }
