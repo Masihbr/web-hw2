@@ -38,6 +38,8 @@
   opacity: 0;
   transition: 1s;
   transform: translateY(10%);
+  font-family: bnazanin, serif !important;
+  font-size: 2vw;
 }
 
 .grid-item:hover .text {
