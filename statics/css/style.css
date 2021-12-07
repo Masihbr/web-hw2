@@ -11,13 +11,3 @@ html {
   direction: rtl;
   text-align: justify;
 }
-
-.persian-font {
-  font-family: bnazanin, serif !important;
-  direction: rtl;
-}
-
-/* body {
-  width: 100vw;
-  overflow: hidden;
-} */
