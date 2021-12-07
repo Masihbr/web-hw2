@@ -34,6 +34,7 @@
   <link rel="stylesheet" type="text/css" href="statics/css/style.css">
   <link rel="stylesheet" type="text/css" href="statics/css/activities.css">
   <link rel="stylesheet" type="text/css" href="statics/css/contact_us.css">
+  <link rel="stylesheet" type="text/css" href="statics/css/footer.css">
 
   <title>WEB</title>
 </head>
@@ -122,9 +123,9 @@
 
   <!-- cards -->
   <div id="cards" class="custom-padding-top" style="direction: rtl;">
-    <h2 class="card-title">اعضای شرکت</h2>
+    <h2 class="card-title persian-font">اعضای شرکت</h2>
 
-    <div class="row d-flex justify-content-center">
+    <div class="cards-container row d-flex justify-content-center align-items-center persian-text">
 
       <div class="col-sm-3">
         <div class="card shadow-lg">
@@ -153,6 +154,7 @@
       <div class="col-sm-3">
         <div class="card shadow-lg main-card">
           <div class="card-header">
+            <div class="badge">مهم</div>
             <h6>۹۸۱۰۶۰۹۴</h6>
             <h4><b>علی مورکیان</b></h4>
             <h6>مهندسی کامپیوتر دانشگاه صنعتی شریف - ورودی ۹۸</h6>
@@ -521,25 +523,25 @@
   </div>
 
 
-  <div id="comments" class="custom-padding-top" style="direction: rtl;">
+  <div id="comments" class="custom-padding-top persian-text">
     <h2 class="slideshow-title">نظرات مشتریان</h2>
     <div class="slideshow-container shadow-lg">
 
-      <div class="row mySlides fade">
+      <div class="mySlides fade">
         <img src="./statics/slider/user1.jpg" class="col col-5">
         <div class="col col-5 text">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
         </div>
       </div>
 
-      <div class="row mySlides fade">
+      <div class="mySlides fade">
         <img src="./statics/slider/user2.jpeg" class="col col-5">
         <div class="col col-5 text">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
         </div>
       </div>
 
-      <div class="row mySlides fade">
+      <div class="mySlides fade">
         <img src="./statics/slider/user3.jpeg" class="col col-5">
         <div class="col col-5 text">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
@@ -552,56 +554,57 @@
   </div>
 
 
-  <div id="news" class="news custom-padding-top" style="direction: rtl;">
+  <div id="news" class="news custom-padding-top persian-text">
     <h3 class="news-header">خبرنامه</h3>
 
     <form class="form-inline" id="myForm">
       <div class="row">
-        <div class="col col-3">
+        <div class="col col-12 col-md-3 mb-2">
           <input type="text" class="form-control" placeholder="نام">
         </div>
-        <div class="col col-3">
+        <div class="col col-12 col-md-3 mb-2">
           <input type="text" class="form-control" placeholder="نام خانوادگی">
         </div>
-        <div class="col col-4">
+        <div class="col col-12 col-md-3 mb-2">
           <input type="email" class="form-control" placeholder="ایمیل">
         </div>
-        <div class="col col-1">
+        <div class="col col-12 col-md-3 mb-2 justify-content-center d-flex">
           <button type="submit" class="btn btn-primary">ثبت</button>
         </div>
       </div>
     </form>
   </div>
 
-  <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal persian-text" tabindex="-1" role="dialog" id="myModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-body">
           <p>حاجی مطمئنی؟؟</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">نه</button>
-          <button type="button" class="btn btn-primary" data-dismiss="modal" id="modalOKBtn">بله</button>
+          <button id="modalCancelButton" type="button" class="btn btn-default" data-dismiss="modal">نه</button>
+          <button id="modalOKBtn" type="button" class="btn btn-primary" data-dismiss="modal">بله</button>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="toast" id="myToast" aria-live="assertive" aria-atomic="true">
+  <div class="toast persian-text" id="myToast" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       <button type="button" class="btn-close" data-dismiss="toast" aria-label="Close">
     </div>
     <div class="toast-body">خبرنامه‌ فعال شد.</div>
   </div>
 
-  <footer id="footer" class="page-footer text-center pt-4">
-    <div class="footer-background">
-      <p class="text-center text-muted">
-        <br />
-        OurGroup@gmail.com <br />
-        Copy right 2021 Web group members | Design by Web group members
-      </p>
-    </div>
+  <footer id="footer" class="page-footer text-center pt-4 footer-background">
+    <br>
+    <br>
+    <br>
+    <p class="text-center text-muted">
+      <br />
+      OurGroup@gmail.com <br />
+      Copy right 2021 Web group members | Design by Web group members
+    </p>
   </footer>
 
   <script src="./statics/js/navbar.js"></script>
