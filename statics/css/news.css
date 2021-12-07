@@ -1,11 +1,21 @@
 .news {
+    direction: rtl;
     background-color: mediumslateblue;
     padding: 40px;
-    margin: 10%;
+    margin: 0 10%;
     border-radius: 10px;
+    position: relative;
+    bottom: -90px;
 }
 
 .news > .news-header {
     padding: 0 0 20px 0;
     color: white;
+    text-align: center;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
