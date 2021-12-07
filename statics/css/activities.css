@@ -1,6 +1,6 @@
 .img-general-style {
-  width: min(10rem, 200px);
-  height: min(10rem, 200px);
+  width: calc(100vw / 4.8);
+  height: calc(100vw / 4.8);
   position: relative;
 }
 
@@ -14,7 +14,26 @@
 
 .img-general-style:hover {
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
-  z-index: 2;
+}
+
+.img-below-hover:hover {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+  animation: nextarrow 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes nextarrow {
+  from {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  to {
+    opacity: 100%;
+    z-index: 2;
+  }
 }
 
 .image-stack {
