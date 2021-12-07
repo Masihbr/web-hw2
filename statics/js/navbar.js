@@ -8,6 +8,10 @@ function toggleDarkMode() {
       "#000000";
     document.getElementsByClassName("offcanvas-end")[0].style.backgroundColor =
       "#020b11";
+
+    document.querySelectorAll(".activities-text-inverted").forEach((element) => { // activities-text
+      element.classList.add("text-white");
+    });
   } else {
     document.body.style.backgroundColor = "#ffffff";
     document.getElementsByClassName("curve-path")[0].style.fill = "#ffffff";
@@ -15,5 +19,9 @@ function toggleDarkMode() {
       "#b1adad";
     document.getElementsByClassName("offcanvas-end")[0].style.backgroundColor =
       "#b1adad";
+
+    document.querySelectorAll(".activities-text-inverted").forEach((element) => { // activities-text
+      element.classList.remove("text-white");
+    });
   }
 }
