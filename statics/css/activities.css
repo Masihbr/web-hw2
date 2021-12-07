@@ -1,73 +1,82 @@
 .img-general-style {
-    width: min(10rem, 200px);
-    height: min(10rem, 200px);
-    position: relative;
-  }
-  
-  .image-shadow--bottom-left {
-    filter: drop-shadow(0.25rem 0.25rem 0.3rem rgba(0, 0, 0, 0.5));
-  }
-  
-  .image-shadow--top-right {
-    filter: drop-shadow(-0.25rem -0.25rem 0.01rem rgba(0, 0, 0, 0.5));
-  }
-  
-  .img-general-style:hover {
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
-    z-index: 2;
-  }
-  
-  .image-stack {
-    content: " ";
-    display: table;
-    clear: both;
-    grid-column: 2 / 2;
-  }
-  
-  .image-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-  }
-  
-  .image-stack__item--bottom-right {
-    float: right;
-    width: 90%;
-    padding-top: 15%;
-  }
-  
-  .image-stack__item--top-left {
-    float: left;
-    width: 100%;
-    margin-right: -100%;
-    padding-top: 5%;
-    z-index: 1;
-  }
-  
-  .above {
-    z-index: 1;
-  }
+  width: min(10rem, 200px);
+  height: min(10rem, 200px);
+  position: relative;
+}
 
-  .custom-link {
-    text-decoration: none;
-    color: #c01650;
+.image-shadow--bottom-left {
+  filter: drop-shadow(0.25rem 0.25rem 0.3rem rgba(0, 0, 0, 0.5));
+}
+
+.image-shadow--top-right {
+  filter: drop-shadow(-0.25rem -0.25rem 0.01rem rgba(0, 0, 0, 0.5));
+}
+
+.img-general-style:hover {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.image-stack {
+  content: " ";
+  display: table;
+  clear: both;
+  grid-column: 2 / 2;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.image-stack__item--bottom-right {
+  float: right;
+  width: 90%;
+  padding-top: 15%;
+}
+
+.image-stack__item--top-left {
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  padding-top: 5%;
+  z-index: 1;
+}
+
+.above {
+  z-index: 1;
+}
+
+.remove-decoration {
+  text-decoration: none;
+  display: block;
+}
+
+.custom-link {
+  color: #c01650;
+}
+
+.custom-link:hover {
+  cursor: pointer;
+  color: #690a26ec;
+  display: block;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+#activitiesPhone {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #activitiesPhone {
     display: block;
   }
-
-  .carousel-indicators [data-bs-target] {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+  #activitiesDesktop {
+    display: none;
   }
-
-  #activitiesPhone {
-      display: none;
-  }
-
-  @media screen and (max-width: 600px) {
-    #activitiesPhone {
-      display: block;
-    }
-    #activitiesDesktop {
-      display: none;
-    }
-  }
+}
