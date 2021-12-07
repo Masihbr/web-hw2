@@ -24,6 +24,10 @@ function toggleDarkMode() {
     document.getElementsByClassName("offcanvas-end")[0].style.backgroundColor =
       "#b1adad";
 
+    document.querySelectorAll(".activities-text-inverted").forEach((element) => { // activities-text
+      element.classList.remove("text-white");
+    });
+
     document.querySelectorAll(".text-color-inverted").forEach((element) => { // activities-text
       element.classList.remove("text-white");
     });
